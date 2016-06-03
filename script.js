@@ -14,10 +14,36 @@ new Vue({
 	el: '#app',
 	data: {
 		items: [
-			"alpha",
-			"beta",
-			"gamma",
-			"epsilon yo! this is really cool thing we're working on ok."
+			{
+				'start': '12:30am',
+				'description': 'stuff is great',
+				'tag': 'life',
+				'duration': 2.5,
+			},
+			{
+				'start': '12:30am',
+				'description': 'stuff is great',
+				'tag': 'life',
+				'duration': 2.5,
+			},
+			{
+				'start': '12:30am',
+				'description': 'stuff is great',
+				'tag': 'life',
+				'duration': 2.5,
+			},
+			{
+				'start': '12:30am',
+				'description': 'stuff is great',
+				'tag': 'life',
+				'duration': 2.5,
+			},
+			{
+				'start': '12:30am',
+				'description': 'stuff is great',
+				'tag': 'life',
+				'duration': 2.5,
+			},
 		],		
 	},
 	methods: {
